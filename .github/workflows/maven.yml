@@ -38,8 +38,8 @@ jobs:
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
-        username: ${{ secrets.saitej150 }}
-        password: ${{ secrets.SaiTeja$123 }}
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
 
 
 #1.Login to dockerhub
